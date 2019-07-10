@@ -1,5 +1,5 @@
 function isBarCodeValid(barCode){
-    if(typeof(getItemById(barCode))=="undefined"){
+    if(typeof(getItemById(barCode).id)=="undefined"){
         return false;
     }
     return true;
